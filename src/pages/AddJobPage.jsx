@@ -19,6 +19,7 @@ const AddJobPage = ({ addJobSubmit}) => {
     const submitForm = (e) => {
         e.preventDefault();
         const newJob = {
+            id,
             title,
             type,
             location,
